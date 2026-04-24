@@ -29,6 +29,7 @@
             <li><a href="recipe.html">Recipes</a></li>
             <li><a href="blog.html" class="active">Blog</a></li>
             <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">About Us</a></li>
         </ul>
 
         <!-- social icons -->
@@ -49,14 +50,20 @@
 
 
 
-<!-- Blog Page Section -->
-<section class="blog-section py-5">
+<!-- blog & article section -->
+<section class="blog-page py-5">
   <div class="container" style="max-width: 1300px;">
 
     <!-- Header -->
-    <div class="text-center mb-5">
-      <h1 class="blog-main-title">Blog Posts</h1>
-      <p class="text-muted">Discover the latest articles, tips, and stories from our blog.</p>
+    <div class="text-center mb-4">
+      <h1 class="blog-page-title">Blog & Article</h1>
+      <p class="blog-page-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
+    </div>
+
+    <!-- Search Bar -->
+    <div class="blog-search mb-5">
+      <input type="text" placeholder="Search article, food or recipe..." class="blog-search-input" />
+      <button class="blog-search-btn">Search</button>
     </div>
 
     <div class="row g-4">
@@ -64,165 +71,166 @@
       <!-- Left: Blog List -->
       <div class="col-lg-8">
 
-        <!-- Blog Item 1 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
+        <!-- blog1 -->
+        <div class="blog-item d-flex gap-4 mb-5">
           <div class="blog-thumb flex-shrink-0">
-            <img src="blog1.jpg" alt="Vegetarian Recipes" />
+            <img src="images/blog1.png" alt="Noodle Lovers" />
           </div>
-          <div>
-            <h3 class="blog-item-title">10 Vegetarian Recipes To Eat This Month</h3>
-            <p class="blog-item-desc mb-1">Fresh, Flavorful, and Absolutely Satisfying Meat-free Meals.</p>
-            <p class="blog-item-meta mb-0">By Jane Doe • 26 May 2025</p>
-          </div>
-        </div>
-
-        <!-- Blog Item 2 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
-          <div class="blog-thumb flex-shrink-0">
-            <img src="blog2.jpg" alt="Noodle Lovers" />
-          </div>
-          <div>
+          <div class="blog-content">
             <h3 class="blog-item-title">Crochet Projects for Noodle Lovers</h3>
-            <p class="blog-item-desc mb-1">Fun, Food-Inspired Crafts to Warm Your Soul and Decorate Your Living Space</p>
-            <p class="blog-item-meta mb-0">By John Smith • 26 May 2025</p>
+            <p class="blog-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqui ante</p>
+            <div class="blog-item-author d-flex align-items-center gap-2">
+              <img src="images/author1.png" alt="Wade Warren" class="author-avatar" />
+              <span class="author-name">Wade Warren</span>
+              <span class="author-date">13 November 2021</span>
+            </div>
           </div>
         </div>
 
-        <!-- Blog Item 3 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
+        <!-- blog2 -->
+        <div class="blog-item d-flex gap-4 mb-5">
           <div class="blog-thumb flex-shrink-0">
-            <img src="blog3.jpg" alt="Professional Chef" />
+            <img src="images/blog2.png" alt="Vegetarian Recipes" />
           </div>
-          <div>
-            <h3 class="blog-item-title">Full Guide to Becoming a Professional Chef</h3>
-            <p class="blog-item-desc mb-1">From Kitchen Newbie to Culinary Pro: Your Roadmap to Chefdom</p>
-            <p class="blog-item-meta mb-0">By Emily Johnson • 26 May 2025</p>
+          <div class="blog-content">
+            <h3 class="blog-item-title">10 Vegetarian Recipes To Eat This Month</h3>
+            <p class="blog-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqui ante</p>
+            <div class="blog-item-author d-flex align-items-center gap-2">
+              <img src="images/author2.png" alt="Robert Fox" class="author-avatar" />
+              <span class="author-name">Robert Fox</span>
+              <span class="author-date">12 November 2021</span>
+            </div>
           </div>
         </div>
 
-        <!-- Blog Item 4 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
+        <!-- blog3 -->
+        <div class="blog-item d-flex gap-4 mb-5">
           <div class="blog-thumb flex-shrink-0">
-            <img src="blog4.jpg" alt="Vegetarian Lasagna" />
+            <img src="images/blog3.png" alt="Professional Chef" />
           </div>
-          <div>
+          <div class="blog-content">
+            <a href="article1.html" class="blog-item-link">
+              <h3 class="blog-item-title">Full Guide to Becoming a Professional Chef</h3>
+            </a>
+            <p class="blog-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqui ante</p>
+            <div class="blog-item-author d-flex align-items-center gap-2">
+              <img src="images/author3.png" alt="Dianne Russell" class="author-avatar" />
+              <span class="author-name">Dianne Russell</span>
+              <span class="author-date">12 November 2021</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- blog4 -->
+        <div class="blog-item d-flex gap-4 mb-5">
+          <div class="blog-thumb flex-shrink-0">
+            <img src="images/blog4.png" alt="Vegetarian Lasagna" />
+          </div>
+          <div class="blog-content">
             <h3 class="blog-item-title">Simple & Delicious Vegetarian Lasagna</h3>
-            <p class="blog-item-desc mb-1">Layers of Flavor, Love, and Cheese — No Meat Needed</p>
-            <p class="blog-item-meta mb-0">By Michael Brown • 26 May 2025</p>
+            <p class="blog-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqui ante</p>
+            <div class="blog-item-author d-flex align-items-center gap-2">
+              <img src="images/author4.png" alt="Leslie Alexander" class="author-avatar" />
+              <span class="author-name">Leslie Alexander</span>
+              <span class="author-date">12 November 2021</span>
+            </div>
           </div>
         </div>
 
-        <!-- Blog Item 5 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
+        <!-- blog5 -->
+        <div class="blog-item d-flex gap-4 mb-5">
           <div class="blog-thumb flex-shrink-0">
-            <img src="blog5.jpg" alt="Plantain Stew" />
+            <img src="images/blog5.png" alt="Plantain Stew" />
           </div>
-          <div>
+          <div class="blog-content">
             <h3 class="blog-item-title">Plantain and Pinto Stew with Aji Verde</h3>
-            <p class="blog-item-desc mb-1">Comfort food with a twist—sweet plantains, hearty beans, and a zesty green sauce.</p>
-            <p class="blog-item-meta mb-0">By Sarah Wilson • 26 May 2025</p>
+            <p class="blog-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqui ante</p>
+            <div class="blog-item-author d-flex align-items-center gap-2">
+              <img src="images/author5.png" alt="Courtney Henry" class="author-avatar" />
+              <span class="author-name">Courtney Henry</span>
+              <span class="author-date">13 November 2021</span>
+            </div>
           </div>
         </div>
 
-        <!-- Blog Item 6 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
+        <!-- blog6 -->
+        <div class="blog-item d-flex gap-4 mb-5">
           <div class="blog-thumb flex-shrink-0">
-            <img src="blog6.jpg" alt="Communications Assistant" />
+            <img src="images/blog6.png" alt="Communications Assistant" />
           </div>
-          <div>
+          <div class="blog-content">
             <h3 class="blog-item-title">We're Hiring a Communications Assistant!</h3>
-            <p class="blog-item-desc mb-1">Join our growing team and help shape the voice of Foodieland.</p>
-            <p class="blog-item-meta mb-0">By Chris Green • 26 May 2025</p>
-          </div>
-        </div>
-
-        <!-- Blog Item 7 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
-          <div class="blog-thumb flex-shrink-0">
-            <img src="blog7.jpg" alt="Healthy Eating" />
-          </div>
-          <div>
-            <h3 class="blog-item-title">10 Tips for Healthy Eating</h3>
-            <p class="blog-item-desc mb-1">Simple habits that make a big difference in how you feel and function every day.</p>
-            <p class="blog-item-meta mb-0">By Anne Lee • 26 May 2025</p>
-          </div>
-        </div>
-
-        <!-- Blog Item 8 -->
-        <div class="blog-item d-flex align-items-center gap-3 py-3 border-bottom">
-          <div class="blog-thumb flex-shrink-0">
-            <img src="blog8.jpg" alt="Meal Prep" />
-          </div>
-          <div>
-            <h3 class="blog-item-title">The Ultimate Guide to Meal Prep</h3>
-            <p class="blog-item-desc mb-1">Save time, reduce stress, and eat healthier with this complete beginner-friendly guide.</p>
-            <p class="blog-item-meta mb-0">By David Clark • 26 May 2025</p>
+            <p class="blog-item-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore magna aliqui ante</p>
+            <div class="blog-item-author d-flex align-items-center gap-2">
+              <img src="images/author6.png" alt="Albert Flores" class="author-avatar" />
+              <span class="author-name">Albert Flores</span>
+              <span class="author-date">13 November 2021</span>
+            </div>
           </div>
         </div>
 
         <!-- Pagination -->
         <div class="d-flex align-items-center gap-2 mt-4">
-          <a href="#" class="page-arrow">&lsaquo;</a>
           <a href="#" class="page-num active">1</a>
           <a href="#" class="page-num">2</a>
-          <a href="#" class="page-arrow">&rsaquo;</a>
+          <a href="#" class="page-num">3</a>
+          <a href="#" class="page-num">4</a>
+          <span class="page-dots">...</span>
+          <a href="#" class="page-num">&rsaquo;</a>
         </div>
 
       </div>
 
-      <!-- Right: Sidebar -->
+      <!-- right sidebar -->
       <div class="col-lg-4">
-        <div class="sidebar ps-lg-3">
 
-          <h3 class="sidebar-title mb-4">Other Recipes</h3>
+        <h3 class="sidebar-title mb-4">Tasty Recipes</h3>
 
-          <!-- Sidebar Item 1 -->
-          <div class="d-flex align-items-center gap-3 mb-4">
-            <div class="sidebar-thumb flex-shrink-0">
-              <img src="side1.jpg" alt="Wagyu Beef" />
-            </div>
-            <div>
-              <h4 class="sidebar-item-title">Big and Juicy Wagyu Beef Cheeseburger</h4>
-              <p class="sidebar-item-meta mb-0">By John Smith</p>
-            </div>
+        <!-- sidebar1 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+          <div class="sidebar-thumb flex-shrink-0">
+            <img src="images/sidebar1.png" alt="Chicken Meatballs" />
           </div>
-
-          <!-- Sidebar Item 2 -->
-          <div class="d-flex align-items-center gap-3 mb-4">
-            <div class="sidebar-thumb flex-shrink-0">
-              <img src="side2.jpg" alt="Fruity Pancake" />
-            </div>
-            <div>
-              <h4 class="sidebar-item-title">Fruity Pancake with Orange & Blueberry</h4>
-              <p class="sidebar-item-meta mb-0">By John Smith</p>
-            </div>
+          <div>
+            <h4 class="sidebar-item-title">Chicken Meatballs with Cream Cheese</h4>
+            <p class="sidebar-item-meta">By Andreas Fade</p>
           </div>
-
-          <!-- Sidebar Item 3 -->
-          <div class="d-flex align-items-center gap-3 mb-4">
-            <div class="sidebar-thumb flex-shrink-0">
-              <img src="side3.jpg" alt="Chicken Wings" />
-            </div>
-            <div>
-              <h4 class="sidebar-item-title">Spicy Delicious Chicken Wings</h4>
-              <p class="sidebar-item-meta mb-0">By John Smith</p>
-            </div>
-          </div>
-
-          <!-- Sidebar Banner -->
-          <div class="sidebar-banner text-center p-4">
-            <p class="banner-text">Don't forget to eat healthy food</p>
-            <img src="sidebar-food.png" alt="Healthy Food" class="banner-img my-3" />
-            <p class="banner-url mb-0">www.foodieland.com</p>
-          </div>
-
         </div>
+
+        <!-- sidebar2 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+          <div class="sidebar-thumb flex-shrink-0">
+            <img src="images/sidebar2.png" alt="Bolognaise Ragu" />
+          </div>
+          <div>
+            <h4 class="sidebar-item-title">Traditional Bolognaise Ragu</h4>
+            <p class="sidebar-item-meta">By Andreas Fade</p>
+          </div>
+        </div>
+
+        <!-- sidebar3 -->
+        <div class="d-flex align-items-center gap-3 mb-4">
+          <div class="sidebar-thumb flex-shrink-0">
+            <img src="images/sidebar3.png" alt="Chinese Dumplings" />
+          </div>
+          <div>
+            <h4 class="sidebar-item-title">Pork and Chive Chinese Dumplings</h4>
+            <p class="sidebar-item-meta">By Andreas Fade</p>
+          </div>
+        </div>
+
+        <!-- sidebar banner -->
+        <div class="sidebar-banner text-center p-4">
+          <p class="banner-text"><em>Don't forget to eat<br> healthy food</em></p>
+          <img src="images/sidebar_banner.png" alt="Healthy Food" class="banner-img my-3" />
+          <p class="banner-url mb-0">www.foodieland.com</p>
+        </div>
+
       </div>
 
     </div>
   </div>
 </section>
-
 
 
 
